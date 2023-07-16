@@ -88,7 +88,7 @@ var genresFilm = [String]()
 
 //start to connect with API
 var semaphore = DispatchSemaphore (value: 0)
-var newURL = "https://api.kinopoisk.dev/movie?token=NG43E9Y-G6N4VX7-NVXJ02Y-5SRT1AB&field=id&search="//start of the link
+var newURL = "https://api.kinopoisk.dev/movie?token&field=id&search="//start of the link
 //readFile()//function to get IDs to array
 //remakeURL()// function to remake URL
 //var urlApi = "https://api.kinopoisk.dev/movie?token=NG43E9Y-G6N4VX7-NVXJ02Y-5SRT1AB&field=id&search=2985"
